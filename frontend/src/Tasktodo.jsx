@@ -6,7 +6,7 @@ import {
   Loader2, Edit2, Sun, Moon, Inbox, AlertTriangle, Calendar, Clock 
 } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://todo-app-01-1.onrender.com/api';
 
 const TaskApp = () => {
   const [tasks, setTasks] = useState([]);
